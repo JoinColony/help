@@ -31,8 +31,8 @@ jobs:
     # Runs the docusaurus publish script
     - name: Run ducusaurus publish script
       run: |
-        $ git config --global user.name "Action Jackson"
-        $ git config --global user.email "actions@joincolony.github.io"
+        git config --global user.name "Action Jackson"
+        git config --global user.email "actions@joincolony.github.io"
         sudo npm install --global docusaurus-init
         npm install
         GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
