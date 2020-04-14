@@ -57,12 +57,6 @@ class Footer extends React.Component {
               rel="noopener">
               Discord
             </a>
-            <a
-              href="https://build.colony.io"
-              target="_blank"
-              rel="noopener">
-              Blog
-            </a>
           </div>
           <div>
             <h5>More</h5>
