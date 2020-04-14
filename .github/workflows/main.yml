@@ -27,5 +27,5 @@ jobs:
       run: |
         pwd
         ls
-        GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages
+        GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
       working-directory: ./website
