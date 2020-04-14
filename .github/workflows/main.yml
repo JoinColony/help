@@ -23,11 +23,10 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install SSH key
-      uses: shimataro/ssh-key-action@v2
+      uses: kielabokkie/ssh-key-and-known-hosts-action@v1
       with:
-        key: ${{ secrets.gh_pages }}
-        name: id_rsa # optional
-        known_hosts: ${{ secrets.KNOWN_HOSTS }}
+        ssh-private-key: ${{ secrets.gh_pages }}
+        ssh-host: github.com
 
     # Runs the docusaurus publish script
     - name: Run ducusaurus publish script
