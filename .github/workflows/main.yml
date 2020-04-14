@@ -25,7 +25,7 @@ jobs:
     # Runs the docusaurus publish script
     - name: Run ducusaurus publish script
       run: |
-      pwd
-      ls
-      GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages # or `npm run publish-gh-pages`
-      # working-directory: ./website
+        pwd
+        ls
+        GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages
+        
