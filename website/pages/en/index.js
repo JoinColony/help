@@ -91,14 +91,14 @@ class Index extends React.Component {
         {[
           {
             content: 'New to Colony? Welcome!',
-            image: `${baseUrl}img/undraw_start_building_vqhd.svg`,
+            image: `${baseUrl}img/getting_started.png`,
             imageAlign: 'top',
             title: 'Getting Started',
             imageLink: '/docs/doc1.html',
           },
           {
             content: 'Easy answers to tough questions',
-            image: `${baseUrl}img/undraw_questions_75e0.svg`,
+            image: `${baseUrl}img/faq.png`,
             imageAlign: 'top',
             title: 'F.A.Q.',
             imageLink: '/docs/doc1.html',
