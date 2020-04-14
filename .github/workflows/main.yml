@@ -22,10 +22,15 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: Install SSH key
+      uses: shimataro/ssh-key-action@v2
+      with:
+        key: ${{ secrets.gh_pages }}
+        name: id_rsa # optional
+        known_hosts: ${{ secrets.KNOWN_HOSTS }}
+
     # Runs the docusaurus publish script
     - name: Run ducusaurus publish script
-      with: # Set the secret as an input
-        super_secret: ${{ secrets.gh_pages }}
       run: |
         sudo npm install --global docusaurus-init
         npm install
