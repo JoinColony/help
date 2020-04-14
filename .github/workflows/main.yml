@@ -26,5 +26,6 @@ jobs:
     - name: Run ducusaurus publish script
       run: |
         sudo npm install --global docusaurus-init
+        npm install
         GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
       working-directory: ./website
