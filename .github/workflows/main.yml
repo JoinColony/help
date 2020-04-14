@@ -24,6 +24,8 @@ jobs:
 
     # Runs the docusaurus publish script
     - name: Run ducusaurus publish script
+      with: # Set the secret as an input
+        super_secret: ${{ secrets.gh_pages }}
       run: |
         sudo npm install --global docusaurus-init
         npm install
