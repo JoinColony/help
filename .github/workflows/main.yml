@@ -22,12 +22,10 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
+    # Runs the docusaurus publish script
+    - name: Run ducusaurus publish script
       run: |
-        cd website
-        GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages # or `npm run publish-gh-pages`
+      pwd
+      ls
+      GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true yarn run publish-gh-pages # or `npm run publish-gh-pages`
+      # working-directory: ./website
