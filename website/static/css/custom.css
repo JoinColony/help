@@ -4,20 +4,59 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
- 
+
 /* your custom css */
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
 @media only screen and (min-width: 1024px) {
+  .homeContainer {
+      background-image: url('/help/img/background.png');
+      background-position: center;
+      background-size: auto;
+      height: 300px;
+      padding: 0 20px;
+      text-align: center;
+      width: 100%;
+      background-color: #00284b;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
+  .homeContainer {
+      height: 150px;
+      width: 100%;
+      background-color: #00284b;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
+  .homeContainer {
+      background-image: url('/help/img/background.png');
+      background-position: center;
+      background-size: auto;
+      height: 300px;
+      padding: 0 20px;
+      text-align: center;
+      width: 100%;
+      background-color: #00284b;
+  }
 }
 
 @media only screen and (min-width: 1500px) {
+  .homeContainer {
+      background-image: url('/help/img/background.png');
+      background-position: center;
+      background-size: auto;
+      height: 300px;
+      padding: 0 20px;
+      text-align: center;
+      width: 100%;
+      background-color: #00284b;
+  }
+}
+
+.projectTitle {
+  color: #289BDC;
 }
