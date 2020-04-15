@@ -29,7 +29,7 @@ const siteConfig = {
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   url: 'https://joincolony.github.io',
-  baseUrl: '/help/',
+  baseUrl: '/',
 
   // Used for publishing and more
   projectName: 'help',
