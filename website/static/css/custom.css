@@ -59,4 +59,9 @@
 
 .projectTitle {
   color: #289BDC;
+  font-weight: bold;
+}
+
+body {
+  font-family: $myFont;
 }
