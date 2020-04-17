@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Getting Started": ["doc1", "doc2"],
+    "Getting Started": ["000-welcome", "001-how-to-create-a-colony-account"],
     "F.A.Q.": ["doc3"]
   },
   "docs-other": {
