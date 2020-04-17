@@ -94,14 +94,14 @@ class Index extends React.Component {
             image: `${baseUrl}img/getting_started.png`,
             imageAlign: 'top',
             title: 'Getting Started',
-            imageLink: `${baseUrl}docs/en/000-welcome.html`,
+            imageLink: `${baseUrl}docs/en/welcome.html`,
           },
           {
             content: 'Easy answers to tough questions',
             image: `${baseUrl}img/faq.png`,
             imageAlign: 'top',
             title: 'F.A.Q.',
-            imageLink: `${baseUrl}docs/en/doc1.html`,
+            imageLink: `${baseUrl}docs/en/faq.html`,
           },
         ]}
       </Block>

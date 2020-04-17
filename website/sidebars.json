@@ -1,7 +1,7 @@
 {
   "docs": {
-    "Getting Started": ["000-welcome", "001-how-to-create-a-colony-account"],
-    "F.A.Q.": ["doc3"]
+    "Getting Started": ["welcome","how-to-get-an-etherem-wallet-address", "how-to-create-a-colony-account","how-to-join-a-colony"],
+    "F.A.Q.": ["faq"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
