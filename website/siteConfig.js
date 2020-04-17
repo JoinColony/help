@@ -107,7 +107,7 @@ const siteConfig = {
 
   algolia: {
     apiKey: 'bdeaa4320c939cfafc8df6f729eb1eaa',
-    indexName: 'colony',
+    indexName: 'joincolony',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
 };
