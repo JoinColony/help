@@ -106,8 +106,8 @@ const siteConfig = {
   //   repoUrl: 'https://github.com/facebook/test-site',
 
   algolia: {
-    apiKey: 'my-api-key',
-    indexName: 'my-index-name',
+    apiKey: 'bdeaa4320c939cfafc8df6f729eb1eaa',
+    indexName: 'colony',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
 };
