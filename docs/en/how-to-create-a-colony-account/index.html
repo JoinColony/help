@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>How to Create a Colony Account · Colony Help</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="To create a Colony account, you will need an [Ethereum address](docs/how-to-get-an-etherem-wallet-address) and some [Ether]() to pay your transaction fees."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="How to Create a Colony Account · Colony Help"/><meta property="og:type" content="website"/><meta property="og:url" content="https://joincolony.github.io/help/"/><meta property="og:description" content="To create a Colony account, you will need an [Ethereum address](docs/how-to-get-an-etherem-wallet-address) and some [Ether]() to pay your transaction fees."/><meta property="og:image" content="https://joincolony.github.io/help/img/colony_social_card.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://joincolony.github.io/help/img/colony_social_card.png"/><link rel="shortcut icon" href="/help/img/logomark_white.svg"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/help/js/scrollSpy.js"></script><link rel="stylesheet" href="/help/css/main.css"/><script src="/help/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/help/en"><img class="logo" src="/help/img/logomark_white.svg" alt="Colony Help"/><h2 class="headerTitleWithLogo">Colony Help</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://colony.io" target="_self">Colony</a></li><li class=""><a href="https://blog.colony.io" target="_self">Blog</a></li><li class=""><a href="https://colony.io/connect" target="_self">App</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/help/img/language.svg" alt="Languages icon"/>English</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/help/docs/el/how-to-create-a-colony-account">Ελληνικά</a></li><li><a href="/help/docs/fr/how-to-create-a-colony-account">Français</a></li><li><a href="/help/docs/zh-CN/how-to-create-a-colony-account">中文</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Getting Started</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting Started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/help/docs/en/welcome">Welcome</a></li><li class="navListItem"><a class="navItem" href="/help/docs/en/how-to-get-an-etherem-wallet-address">How to Get a Wallet</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/help/docs/en/how-to-create-a-colony-account">How to Create a Colony Account</a></li><li class="navListItem"><a class="navItem" href="/help/docs/en/how-to-join-a-colony">How to Join a Colony</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">F.A.Q.<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/help/docs/en/faq">FAQ</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">How to Create a Colony Account</h1></header><article><div><span><p>To create a Colony account, you will need an <a href="docs/how-to-get-an-etherem-wallet-address">Ethereum address</a> and some <a href="">Ether</a> to pay your transaction fees.
+(<a href="">Why are there transaction fees?</a>)</p>
+<p>Once you have an Ethereum address and some Ether, creating your Colony account is simple.
+No email address and password are needed, simply authenticate with your Ethereum wallet and you are in!</p>
+<p><img src="/help/docs/assets/how-to-create-a-colony-account/1.png" alt="Choose a wallet"></p>
+<p>Under your profile avatar, <strong>select Get started</strong>.</p>
+<p><img src="/help/docs/assets/how-to-create-a-colony-account/2.png" alt="Get Started"></p>
+<p>Choose a username</p>
+<p><img src="/help/docs/assets/how-to-create-a-colony-account/3.png" alt="Username"></p>
+<p>Confirm the transaction to claim your username.</p>
+<p><img src="/help/docs/assets/how-to-create-a-colony-account/4.png" alt="Confirm"></p>
+<p>Yay! You have claimed your username!  🎉</p>
+<p>You can customize your profile by clicking your profile image in the top right corner and selecting <strong>Settings</strong>.</p>
+<p><img src="/help/docs/assets/how-to-create-a-colony-account/5.png" alt="Setting">
+<img src="/help/docs/assets/how-to-create-a-colony-account/6.png" alt="Profile"></p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 4/17/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/help/docs/en/how-to-get-an-etherem-wallet-address"><span class="arrow-prev">← </span><span>How to Get a Wallet</span></a><a class="docs-next button" href="/help/docs/en/how-to-join-a-colony"><span>How to Join a Colony</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/help/" class="nav-home"><img src="/help/img/logomark_white.svg" alt="Colony Help" width="66" height="58"/></a><div><h5>Docs</h5><a href="/help/docs/en/doc1.html">Get Started</a><a href="/help/docs/en/doc2.html">FAQs</a></div><div><h5>Community</h5><a href="https://colony.io/colony/beta" target="_blank" rel="noopener">Betacolony</a><a href="https://clny.io/discord" target="_blank" rel="noopener">Discord</a></div><div><h5>More</h5><a href="https://twitter.com/joincolony" target="_blank" rel="noopener">Twitter</a><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></div></section><a href="https://colony.io" target="_blank" rel="noopener" class="fbOpenSource"><img src="/help/img/primary_horizontal_white.svg" alt="Colony" width="170"/></a><section class="copyright">Copyright © 2020 Colony</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'bdeaa4320c939cfafc8df6f729eb1eaa',
+                indexName: 'joincolony',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
