@@ -10,64 +10,8 @@
             languagesDropDown.className = "hide";
           }
         });
-      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>First Category</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">First Category<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem navListItemActive"><a class="navItem" href="/help/docs/en/doc5">Fifth Document</a></li></ul></div></div></section></div><script>
-            var coll = document.getElementsByClassName('collapsible');
-            var checkActiveCategory = true;
-            for (var i = 0; i < coll.length; i++) {
-              var links = coll[i].nextElementSibling.getElementsByTagName('*');
-              if (checkActiveCategory){
-                for (var j = 0; j < links.length; j++) {
-                  if (links[j].classList.contains('navListItemActive')){
-                    coll[i].nextElementSibling.classList.toggle('hide');
-                    coll[i].childNodes[1].classList.toggle('rotate');
-                    checkActiveCategory = false;
-                    break;
-                  }
-                }
-              }
-
-              coll[i].addEventListener('click', function() {
-                var arrow = this.childNodes[1];
-                arrow.classList.toggle('rotate');
-                var content = this.nextElementSibling;
-                content.classList.toggle('hide');
-              });
-            }
-
-            document.addEventListener('DOMContentLoaded', function() {
-              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
-              createToggler('#tocToggler', 'body', 'tocActive');
-
-              var headings = document.querySelector('.toc-headings');
-              headings && headings.addEventListener('click', function(event) {
-                var el = event.target;
-                while(el !== headings){
-                  if (el.tagName === 'A') {
-                    document.body.classList.remove('tocActive');
-                    break;
-                  } else{
-                    el = el.parentNode;
-                  }
-                }
-              }, false);
-
-              function createToggler(togglerSelector, targetSelector, className) {
-                var toggler = document.querySelector(togglerSelector);
-                var target = document.querySelector(targetSelector);
-
-                if (!toggler) {
-                  return;
-                }
-
-                toggler.onclick = function(event) {
-                  event.preventDefault();
-
-                  target.classList.toggle(className);
-                };
-              }
-            });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Fifth Document</h1></header><article><div><span><p>Another one</p>
-</span></div></article></div><div class="docLastUpdate"><em>Last updated on 4/17/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/help/docs/en/doc4"><span class="arrow-prev">← </span><span>Previous</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/help/" class="nav-home"><img src="/help/img/logomark_white.svg" alt="Colony Help" width="66" height="58"/></a><div><h5>Docs</h5><a href="/help/docs/en/doc1.html">Get Started</a><a href="/help/docs/en/doc2.html">FAQs</a></div><div><h5>Community</h5><a href="https://colony.io/colony/beta" target="_blank" rel="noopener">Betacolony</a><a href="https://clny.io/discord" target="_blank" rel="noopener">Discord</a></div><div><h5>More</h5><a href="https://twitter.com/joincolony" target="_blank" rel="noopener">Twitter</a><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></div></section><a href="https://colony.io" target="_blank" rel="noopener" class="fbOpenSource"><img src="/help/img/primary_horizontal_white.svg" alt="Colony" width="170"/></a><section class="copyright">Copyright © 2020 Colony</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Fifth Document</h1></header><article><div><span><p>Another one</p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 4/18/2020</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/help/" class="nav-home"><img src="/help/img/logomark_white.svg" alt="Colony Help" width="66" height="58"/></a><div><h5>Docs</h5><a href="/help/docs/en/doc1.html">Get Started</a><a href="/help/docs/en/doc2.html">FAQs</a></div><div><h5>Community</h5><a href="https://colony.io/colony/beta" target="_blank" rel="noopener">Betacolony</a><a href="https://clny.io/discord" target="_blank" rel="noopener">Discord</a></div><div><h5>More</h5><a href="https://twitter.com/joincolony" target="_blank" rel="noopener">Twitter</a><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></div></section><a href="https://colony.io" target="_blank" rel="noopener" class="fbOpenSource"><img src="/help/img/primary_horizontal_white.svg" alt="Colony" width="170"/></a><section class="copyright">Copyright © 2020 Colony</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
