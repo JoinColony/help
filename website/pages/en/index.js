@@ -101,7 +101,7 @@ class Index extends React.Component {
             image: `${baseUrl}img/faq.png`,
             imageAlign: 'top',
             title: 'F.A.Q.',
-            imageLink: `${baseUrl}docs/en/faq.html`,
+            imageLink: `${baseUrl}docs/en/what-are-domains.html`,
           },
         ]}
       </Block>

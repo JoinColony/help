@@ -65,3 +65,7 @@
 body {
   font-family: $myFont;
 }
+
+a {
+  color: #289BDC;
+}
