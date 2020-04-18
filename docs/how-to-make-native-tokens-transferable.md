@@ -1,7 +1,7 @@
 ---
 id: how-to-make-native-tokens-transferable
-title: How to Make Native Tokens Transferable?
-sidebar_label: How to Make Native Tokens Transferable?
+title: How Can I Make My Colony's Native Tokens Transferable?
+sidebar_label: How Can I Make My Colony's Native Tokens Transferable?
 ---
 By default, your colony's native tokens are non-transferable.
 

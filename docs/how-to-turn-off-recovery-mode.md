@@ -1,7 +1,7 @@
 ---
 id: how-to-turn-off-recovery-mode
-title: A Transaction Failed While I Was Creating My Colony, What Now?
-sidebar_label: Failed Transaction, What Now?
+title: How Do I Turn Off Recovery Mode?
+sidebar_label: How Do I Turn Off Recovery Mode?
 ---
 You hit the recovery mode button and now your colony is frozen.
 

@@ -45,8 +45,8 @@
         "sidebar_label": "How to Join a Colony"
       },
       "how-to-make-native-tokens-transferable": {
-        "title": "How to Make Native Tokens Transferable?",
-        "sidebar_label": "How to Make Native Tokens Transferable?"
+        "title": "How Can I Make My Colony's Native Tokens Transferable?",
+        "sidebar_label": "How Can I Make My Colony's Native Tokens Transferable?"
       },
       "how-to-mint-tokens": {
         "title": "How to Mint Tokens",
@@ -57,8 +57,8 @@
         "sidebar_label": "How to Modify User Permissions"
       },
       "how-to-turn-off-recovery-mode": {
-        "title": "A Transaction Failed While I Was Creating My Colony, What Now?",
-        "sidebar_label": "Failed Transaction, What Now?"
+        "title": "How Do I Turn Off Recovery Mode?",
+        "sidebar_label": "How Do I Turn Off Recovery Mode?"
       },
       "how-to-work-on-a-task": {
         "title": "How to Work on a Task",
@@ -75,6 +75,10 @@
       "what-are-skills": {
         "title": "What Are Skills?",
         "sidebar_label": "What Are Skills?"
+      },
+      "what-are-suggestions": {
+        "title": "What Are Suggestions?",
+        "sidebar_label": "What Are Suggestions?"
       }
     },
     "links": {
