@@ -106,7 +106,7 @@ const siteConfig = {
   //   repoUrl: 'https://github.com/facebook/test-site',
 
   algolia: {
-    apiKey: 'bdeaa4320c939cfafc8df6f729eb1eaa',
+    apiKey: 'b75b1d2458bdc0cff7417cac43735c06',
     indexName: 'joincolony',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
