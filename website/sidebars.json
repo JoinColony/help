@@ -1,9 +1,25 @@
 {
   "docs": {
-    "Getting Started": ["welcome","how-to-get-an-etherem-wallet-address", "how-to-create-a-colony-account","how-to-join-a-colony"],
-    "F.A.Q.": ["faq"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Getting Started": [
+      "welcome",
+      "how-to-get-an-etherem-wallet-address",
+      "how-to-create-a-colony-account",
+      "how-to-join-a-colony",
+      "how-to-work-on-a-task",
+      "how-to-create-a-colony",
+      "how-to-choose-a-native-token",
+      "how-to-create-a-task",
+      "how-to-fund-your-colony",
+      "how-to-mint-tokens",
+      "how-to-modify-user-permissions"
+    ],
+    "F.A.Q.": [
+      "faq",
+      "what-are-domains",
+      "what-are-skills",
+      "failed-transaction",
+      "how-to-make-native-tokens-transferable",
+      "how-to-turn-off-recovery-mode"
+    ]
   }
 }
