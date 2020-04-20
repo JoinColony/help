@@ -26,10 +26,9 @@ const siteConfig = {
   title: 'Colony Help', // Title for your website.
   tagline: 'Looking for help?',
   //   url: 'https://help.colony.io', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  baseUrl: '/help/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
-  url: 'https://help.colony.io',
-  // baseUrl: '/help/',
+  url: 'https://colony.io',
 
   // Used for publishing and more
   projectName: 'help',
