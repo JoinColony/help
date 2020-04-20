@@ -47,12 +47,12 @@ const languages = [
     tag: 'de',
   },
   {
-    enabled: true,
+    enabled: false,
     name: 'Ελληνικά',
     tag: 'el',
   },
   {
-    enabled: false,
+    enabled: true,
     name: 'Español',
     tag: 'es-ES',
   },
