@@ -104,6 +104,8 @@ const siteConfig = {
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
 
+  cname: "help.colony.io",
+
   algolia: {
     apiKey: 'b75b1d2458bdc0cff7417cac43735c06',
     indexName: 'joincolony',
