@@ -1,13 +1,13 @@
 ---
 id: how-to-get-an-etherem-wallet-address
-title: How to get an Ethereum Wallet
-sidebar_label: How to Get a Wallet
+title: 如何获取以太坊钱包
+sidebar_label: 如何获取钱包
 ---
 
-[MetaMask](https://metamask.io) is one of the simplest ways to get and manage an Ethereum address. it is a free to use browser extension, you can read more about it and how to install it in their [getting started guide](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-).
+Metamask 是获取和管理以太坊地址最简单的方法之一。 metamask 是一个免费的浏览器扩展程序，您可以在他们的入门指南中阅读更多关于它的介绍以及如何安装它的指引。
 
 
 
-If you want to get a bit more serious about security, a hardware wallet is a great option. Ledger makes a great line of hardware wallets that you can use with the Colony dapp. You can check out their range on the [Ledger Store](https://shop.ledger.com/?r=b503c78c9e48).
+如果您想获得更高的安全性，硬件钱包是一个不错的选择。 Ledger 提供了很多可用于 Colony dapp 的硬件钱包。您可以在 Ledger 商店查看它们的可用范围。
 
-![Username](assets/how-to-get-an-ethereum-wallet/1.jpg)
+![用户名](assets/how-to-get-an-ethereum-wallet/1.jpg)
