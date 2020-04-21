@@ -1,15 +1,15 @@
 ---
 id: how-to-work-on-a-task
-title: How to Work on a Task
-sidebar_label: How to Work on a Task
+title: 如何完成一个任务
+sidebar_label: 如何完成一个任务
 ---
 
-Find a task that you would like to complete and give it a click.
+找到一个您想完成的任务，点击它。
 
-Click the **Request to Work** button.
+点击 “Request to Work” 按钮。
 
-Cross your fingers 🤞, hope the admin picks you, then get to work!
+搞定🤞，等候该任务的管理员选中您，然后开始工作吧！
 
-When you are done, let the admin know so they can finalize the task and reward your work with Reputation and/or rewards.
+当您完成这项任务之后，请提醒该任务的管理员，这样他们就可以完结该任务，并将声誉值和/或奖励发放给您。
 
-![Work on a task](assets/how-to-work-on-a-task/1.gif)
+![完成一个任务](assets/how-to-work-on-a-task/1.gif)
