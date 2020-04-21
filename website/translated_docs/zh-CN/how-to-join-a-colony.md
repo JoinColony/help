@@ -1,13 +1,13 @@
 ---
 id: how-to-join-a-colony
-title: How to Join a Colony
-sidebar_label: How to Join a Colony
+title: 如何加入一个 Colony
+sidebar_label: 如何加入一个 Colony
 ---
 
-To join a colony, simply click the star icon next to the colony's profile image.
+要加入一个 colony，只需点击其账户头像旁边的星星图标即可。
 
-That colony will then appear in the **Colonies** tab in your dashboard.
+这个 colony 便会出现在您仪表盘的 “My Colonies” 标签栏。
 
-![Join a Colony](assets/how-to-join-a-colony/1.gif)
+![加入Colony](assets/how-to-join-a-colony/1.gif)
 
-However, to truly call yourself a member of the colony, you'll need to earn some Reputation in the colony.
+不过，要真正称得上是这个 colony 的一员，您需要在这个 colony 赢得一些声誉值。
