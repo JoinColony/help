@@ -1,5 +1,5 @@
 ---
-id: how-to-create-a-colony-account
+id: 如何创建一个Colony账户
 title: 如何创建一个 Colony 帐户
 sidebar_label: 如何创建一个 Colony 帐户
 ---
