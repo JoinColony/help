@@ -4,7 +4,7 @@ title: 如何创建一个 Colony 帐户
 sidebar_label: 如何创建一个 Colony 帐户
 ---
 
-创建一个 Colony 帐户，您需要一个以太坊地址和少量的 Ether 来支付您的交易费用。 ([Why are there transaction fees?]())
+创建一个 Colony 帐户，您需要一个以太坊地址和少量的 Ether 来支付您的交易费用。 (为什么会有交易费？)
 
 Once you have an Ethereum address and some Ether, creating your Colony account is simple. No email address and password are needed, simply authenticate with your Ethereum wallet and you are in!
 
