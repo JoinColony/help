@@ -1,37 +1,37 @@
 ---
-id: how-to-create-a-task
-title: How to Create a Task
-sidebar_label: How to Create a Task
+id: 如何创建一个任务
+title: 如何创建一个任务
+sidebar_label: 如何创建一个任务
 ---
 
-(then fund it, and assign it to someone) This guide shows you how to:
+(然后为其提供资金，并将其分配给某人) 本指南将向您展示如何：
 
-1. Create a task
-2. Assign it to someone
-3. Fund the task
+1. 创建任务
+2. 将任务分配给某人
+3. 为任务提供资金
 
-## Create a task
-Click the **New Task** button.
+## 创建任务
+点击 "New Task" 按钮。
 
-Fill in the title and description. Add a domain, a skill, and a due date (optional). Assign the task to someone (optional) and fund the task.
+填写标题和描述信息， 添加域、技能以及截止日期(可选)， 然后将任务分配给某人(可选)并为该任务提供资金。
 
-Your task will now appear in the **Open Task** list.
+现在，您创建的任务将出现在 "Open Task" 列表中。
 
-![New task](assets/how-to-create-a-task/1.gif)
+![新任务](assets/how-to-create-a-task/1.gif)
 
-## Assign the task
-When you are ready to assign the task to someone, click **Details** in the task view.
+## 分配任务
+当您准备好将任务分配给某人，请点击任务视图中的 “Details”。
 
-Anyone that has requested to work on the task will show up in the list. You can also assign the task to any user by pasting their Ethereum address into the **Select Assignee** field.
+任何请求完成此任务的人都会出现在名单中。 您还可以将任务分配给名单之外的任何用户，方法是将他的以太坊地址粘贴到 “Select Assignee” 字段中。
 
 
-## Add funding to the task
-Hit **Add+** to add funding to the task.
+## 为任务提供资金
+点击 "Add+"，为任务提供资金。
 
-Select the tokens and values that you would like to assign to the task, and click **Confirm**.
+选择要分配给这个任务的通证及数量，然后点击 “Confirm”。
 
-If you assign your colony's native tokens to the task, the worker will also earn Reputation in your colony.
+如果将您的 colony 原生通证分配给这个任务，那么这位工作者将在您的 colony 中获得相应的声誉值。
 
-Yay! You successfully created, assigned, and funded a task! 🎉
+耶！ 您成功地创建、分配了一个任务并为它提供了资金！🎉 🎉
 
-![add funding to a task](assets/how-to-create-a-task/1.gif)
+![为任务注资](assets/how-to-create-a-task/1.gif)
