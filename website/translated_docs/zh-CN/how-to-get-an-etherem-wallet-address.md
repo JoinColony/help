@@ -1,5 +1,5 @@
 ---
-id: how-to-get-an-etherem-wallet-address
+id: 如何获取以太坊钱包
 title: 如何获取以太坊钱包
 sidebar_label: 如何获取钱包
 ---
