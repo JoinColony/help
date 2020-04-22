@@ -1,13 +1,13 @@
 ---
-id: how-to-fund-your-colony
-title: How to Fund Your Colony
-sidebar_label: How to Fund Your Colony
+id: 如何向您的 colony 注资
+title: 如何向您的 colony 注资
+sidebar_label: 如何向您的 colony 注资
 ---
 
-Navigate to your colony’s dashboard and click the **settings icon** ⚙ next to your colony’s name.
+导航到您的 colony 仪表板，点击您 colony 名称旁的设置图标 ⚙。
 
-In the **profile** tab, you will find your colony’s address. Send Ether and/or ERC20 tokens to this address to fund your colony.
+在个人资料标签页，可以找到您的 colony 地址， 发送 Ether 和/或 ERC20 通证到这个地址便可以为您的 colony 注资。
 
-Before the tokens show up in your colony’s wallet, you will need to claim the incoming transactions from the **Transactions** tab.
+在注资通证出现在您的 colony 钱包之前，您需要在 “Transactions” 标签中认领该笔交易。
 
-Once you have claimed your tokens, you your colony's token balances will be updated. ![add funding to a task](assets/how-to-fund-your-colony/1.gif)
+当您认领了该注资通证之后，您的 colony 通证余额也将更新。![为任务提供资金](assets/how-to-fund-your-colony/1.gif)
