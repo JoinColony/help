@@ -1,25 +1,25 @@
 ---
-id: how-to-make-native-tokens-transferable
-title: How Can I Make My Colony's Native Tokens Transferable?
-sidebar_label: How Can I Make My Colony's Native Tokens Transferable?
+id: 如何让我的原生通证可转移？
+title: 如何让我的原生通证可转移？
+sidebar_label: 如何让我的原生通证可转移？
 ---
 
-By default, your colony's native tokens are non-transferable.
+默认情况下，您的 colony 原生通证不可转移。
 
-The colony founder can unlock your colony's native token to make them transferable.
+该 colony 的创始人可以解锁其 colony 的原生通证，使它们允许转移。
 
-**But beware; what is done, cannot be undone.** Once you unlock your colony's native token, they cannot be locked again in future.
+但要小心，此操作不可撤销。一旦您解锁了您的 colony 原生通证，它们就无法再次锁定了。
 
 
 
-To unlock your colony's native token, click on the Settings icon ⚙ on your colony's home page.
+要解锁 colony 的原生通证，请点击您 colony 主页上的设置图标 ⚙ 。
 
-Click the **Advanced** tab.
+点击 "Advanced" 选项卡。
 
-Click **Unlock Token**.
+点击 "Unlock Token"。
 
-Click **Confirm**.
+点击 "Confirm"。
 
-Yay! Now your token is unlocked and people can send it freely! 🎉
+耶！ 您的原生通证已经解锁，可以自由发送了！ 🎉
 
-![unlock tokens](assets/how-to-make-native-tokens-transferable/1.gif)
+![解锁通证](assets/how-to-make-native-tokens-transferable/1.gif)
