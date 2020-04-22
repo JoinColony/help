@@ -1,21 +1,21 @@
 ---
-id: how-to-mint-tokens
-title: How to Mint Tokens
-sidebar_label: How to Mint Tokens
+id: 如何铸造新通证
+title: 如何铸造新通证
+sidebar_label: 如何铸造新通证
 ---
 
-If a new native token was created when your colony was set up, your colony has the ability to mint new native tokens whenever it likes.
+如果在创建您的 colony 时，您已经创建了一个新的原生通证，那么您的 colony 便可以随时铸造一些新的原生通证。
 
-In order to mint new tokens for the colony, you will need the root permission. The Colony Founder has this permission by default.
+您需要 root 权限才能为 colony 创建新通证。 默认情况下，该 colony 的创始人拥有此权限。
 
-Navigate to your colony’s dashboard and click the **Settings** icon ⚙ next to your colony’s name.
+导航到您的 colony 仪表板，并点击您 colony 名称旁边的 "Settings" 图标 ⚙。
 
-Click on the **Tokens** tab.
+点击 "Tokens" 选项卡。
 
-Click **Mint New Tokens**.
+点击 "Mint New Tokens"。
 
-Enter the number of tokens you would like to mint and click **Confirm**.
+输入您想要铸造的通证数量，然后点击“Confirm”。
 
-Yay! You just minted some tokens! 🎉
+耶！ 您刚刚铸造了一些通证！ 🎉
 
-![mint tokens](assets/how-to-mint-tokens/1.gif)
+![铸造通证](assets/how-to-mint-tokens/1.gif)
