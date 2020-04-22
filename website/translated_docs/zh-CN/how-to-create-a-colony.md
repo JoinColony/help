@@ -1,23 +1,23 @@
 ---
-id: how-to-create-a-colony
-title: How to Create a Colony
-sidebar_label: How to Create a Colony
+id: 如何创建一个您自己的Colony
+title: 如何创建一个您自己的 Colony
+sidebar_label: 如何创建一个您自己的 Colony
 ---
 
-Once you have created your colony account, creating a new colony is easy.
+当您创建了您的 colony 帐户之后，创建一个新的 colony 便易如反掌。
 
-Click your profile image and select “Create A Colony”.
+点击您的个人账户头像，并选择 “Create A Colony”。
 
-Enter your colony’s name and choose your colony’s URL.
+输入您的 colony 名称并设置您的 colony 网址。
 
-Pick your native token. (Need help choosing your native token? Check out [this article](todo))
+挑选您的原生通证。 (对如何挑选您的原生通证略表困惑? 请查阅这篇文章)
 
-Confirm all of the details.
+确认您填写的所有信息。
 
-Deploy your colony to the blockchain! (You will need ETH to pay for these transactions)
+将您的 colony 部署到区块链!  (您需要一点点 ETH 来支付这些交易)
 
-🎉Yay! 🎉 You just created your first colony!
+🎉耶！ 🎉您已成功创建了您的第一个 colony！
 
-Next you will want to fund your colony.
+接下来，您可以开始向您的 colony 注资。
 
-![Work on a task](assets/how-to-create-a-colony/1.gif)
+![完成一个任务](assets/how-to-create-a-colony/1.gif)
