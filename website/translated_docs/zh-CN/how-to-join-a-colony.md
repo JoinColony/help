@@ -1,5 +1,5 @@
 ---
-id: how-to-join-a-colony
+id: 如何加入一个Colony
 title: 如何加入一个 Colony
 sidebar_label: 如何加入一个 Colony
 ---
