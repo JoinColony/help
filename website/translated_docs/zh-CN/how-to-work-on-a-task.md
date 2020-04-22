@@ -1,5 +1,5 @@
 ---
-id: how-to-work-on-a-task
+id: 如何完成一个任务
 title: 如何完成一个任务
 sidebar_label: 如何完成一个任务
 ---
