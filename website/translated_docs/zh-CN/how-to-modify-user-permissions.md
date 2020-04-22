@@ -8,17 +8,17 @@ sidebar_label: 如何在 Colony 中修改用户权限
 
 在授予一个用户权限之前，请确保您了解 colony 中的这些用户权限各启用了哪些功能。
 
-## Modify a user's permissions
-Navigate to the your colony's **Settings**.
+## 修改用户权限
+导航到您 colony 的设置页面。
 
-Click the **Permissions** tab.
+点击 "Permissions" 选项卡。
 
-Select the domain in which you want to modify permissions.
+选择要在其中修改权限的域。
 
-Select the user's avatar or paste in their Ethereum address.
+选择用户的头像或粘贴他们的以太坊地址。
 
-Then select the permissions you want to change.
+然后选择您希望更改的权限。
 
-Yay! Your just modified a user's permissions! 🎉
+耶！ 您刚刚完成了一个用户权限的修改！ 🎉
 
-![modify permissions](assets/how-to-modify-user-permissions/1.gif)
+![修改权限](assets/how-to-modify-user-permissions/1.gif)
