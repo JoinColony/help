@@ -1,39 +1,39 @@
 ---
-id: how-to-choose-a-native-token
-title: How to Choose a Native Token
-sidebar_label: How to Choose a Native Token
+id: 如何选择原生通证
+title: 如何选择原生通证
+sidebar_label: 如何选择原生通证
 ---
 
-Picking the right native token is one of the most important decisions that you need to make when you set up your colony.
+挑选正确的原生通证是设置您 colony 最为重要的抉择之一。
 
-Sending native tokens is how your colony distributes reputation.
+在您的 colony 分配声誉值是通过发送原生通证实现的。
 
-Once you have selected the native token, it cannot be changed.
+一旦您选定了原生通证，便无法更改。
 
-As such, it is important that you understand the potential implications of different choices.
+因此，了解不同选择所带来的结果差异非常重要。
 
 
 
-You have two options when picking a native token, each with their own benefits and considerations; create a token or bring your own token
+在挑选原生通证时，我们为您提供了两个选项：创建一个新通证或使用现有通证。它们各有优点，也各有需要您留意的注意事项。
 
-## Create a new token
-**Benefit**
+## 铸造一个新通证
+**优点**
 
-Easily gives your colony the ability to mint new tokens and to define how and why they are valuable.
+可以让您的 colony 轻松铸造一个新通证，并定义其为何/如何具有价值。
 
-**Considerations**
+**注意事项**
 
-You will need to define why the token is valuable; how, when, and why is it distributed and at what rate? This will determine how reputation in your colony is earned.
+您需要定义该通证为什么有价值；它如何、何时、为何以及以何种价格分配？ 这决定了在您的 colony 中，人们如何赢得声誉值。
 
-![create a token](assets/how-to-choose-a-native-token/1.png)
+![铸造一个通证](assets/how-to-choose-a-native-token/1.png)
 
-## Bring your own token (BYOT)
-**Benefit**
+## 使用现有通证
+**优点**
 
-Your colony’s reputation is pegged to an existing token, that (presumably) has an economic model. For example, if you choose DAI, reputation in your colony is a reflection of the US dollar value that the colony has been willing to pay you; a good proxy for how valuable your contributions are to the colony.
+您的 colony 声誉值取决于一个现有通证，这个通证(或许)已经有了一个经济模型。  例如，如果您选择 DAI，您在 colony 的声誉值就是 colony 愿意付给您美元的价值体现；它以最为直接的方式体现了您在该 colony 中的价值贡献。
 
-**Considerations**
+**注意事项**
 
-Your colony’s reputation is exposed to the risks and fluctuations of whichever token you choose. This is compounded if you select a native token that you do not control, like DAI for example.
+无论您选择哪种通证，您的 colony 声誉值都会受到风险和波动的影响。 如果您选择了一个您无法控制的原生通证(例如 DAI) ，那么这种情况就会变得很复杂。
 
-![bring a token](assets/how-to-choose-a-native-token/2.png)
+![使用现有通证](assets/how-to-choose-a-native-token/2.png)
