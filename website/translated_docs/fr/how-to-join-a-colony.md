@@ -1,13 +1,13 @@
 ---
-id: how-to-join-a-colony
-title: How to Join a Colony
-sidebar_label: How to Join a Colony
+id: comment-rejoindre-une-colonie
+title: Comment rejoindre une colonie
+sidebar_label: Comment rejoindre une colonie
 ---
 
-To join a colony, simply click the star icon next to the colony's profile image.
+Pour rejoindre une colonie, cliquez simplement sur l'étoile à côté de l'icône de la colonie.
 
-That colony will then appear in the **Colonies** tab in your dashboard.
+Cette colonie apparaitra alors dans l'onglet « **Colonies** » de votre tableau de bord.
 
-![Join a Colony](assets/how-to-join-a-colony/1.gif)
+![Rejoindre une colonie](assets/how-to-join-a-colony/1.gif)
 
-However, to truly call yourself a member of the colony, you'll need to earn some Reputation in the colony.
+Cependant, pour devenir un véritable membre actif de la colonie, vous devrez gagner en réputation dans cette colonie.
