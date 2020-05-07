@@ -1,42 +1,42 @@
 ---
-id: what-are-permissions
-title: What Are Permissions?
-sidebar_label: What Are Permissions?
+id: que-sont-les-autorisations
+title: Que sont les autorisations ?
+sidebar_label: Que sont les autorisations ?
 ---
 
-Colony has six permission classes which can be assigned to any Ethereum address: Funding, Administration, Arbitration, Architecture, Root, and Recovery.
+Colony a six classes d'autorisations qui peuvent être assignées à n'importe quelle adresse Ethereum : Financement ("Funding"), Administration, Arbitrage ("Arbitration"), Architecture, Racine ("Root") et Récupération ("Recovery").
 
-Permissions are assigned at the domain level. If an account is granted a permission in a domain, it also has that same permission in all of that domain’s subdomains.
+Les permissions sont attribuées au niveau du domaine. Si un compte se voit accorder une permission dans un domaine, il a également la même permission dans tous ses sous-domaines.
 
-It is worth noting that these permissions can be assigned directly to a user's account, giving the account the permission unilaterally, or to a smart contract that implements some other logic around the permissions (Reputation-weighted voting for example).
+Il est à noter que ces autorisations peuvent être attribuées directement à un compte utilisateur, donnant unilatéralement l'autorisation au compte, ou à un contrat intelligent qui implémente une autre logique autour des autorisations (vote pondéré par la réputation par exemple).
 
 
 
-# Permissions
-## Funding 💰
-* Able to move funds within arbitrary pots in the domain
+# Autorisations
+## Financement 💰
+* Permet de déplacer des fonds dans des pots arbitraires dans le domaine
 
 
 ## Administration 👔
-* Able to manipulate payments (tasks) in their domain
-* Able to raise disputes
+* Permet de manipuler les paiements (tâches) dans leur domaine
+* Permet déclencher des litiges
 
 
-## Arbitration 🔨
-* Able to resolve disputes in their domain (i.e. change arbitrary state)
-* Able to set the escrow period
+## Arbitrage 🔨
+* Permet de résoudre les litiges dans leur domaine (changer l'état d'arbitrage)
+* Permet de définir la période de dépôt de valeur
 
 
 ## Architecture 💪🏽
-* Able to create subdomains
-* Able to manage permissions in subdomains (but not the domain itself) *Note, you may notice Architecture Subdomain in some instances. This permission allows the holder to manage permissions in the domain that the permission is granted, rather than only in the subdomains.*
+* Permet de créer des sous-domaines
+* Permet de gérer les autorisations dans les sous-domaines (mais pas le domaine lui-même) *Note : vous trouverez le sous-domaine Architecture ("Architecture Subdomain") dans certaines instances. Cette autorisation permet au titulaire de gérer les autorisation dans le domaine où la permission est accordée, plutôt que dans les sous-domaines.*
 
 
-## Root ⚡
-* Modify colony-wide parameters
-* Upgrade the colony
-* Manage permissions in Root Domain
+## Racine ⚡
+* Modifier les paramètres globaux de la colonie
+* Mettre à jour la colonie
+* Gérer les permissions dans le domaine racine ("Root Domain")
 
 
-## Recovery 🚑
-* Turn on and off recovery mode (which freezes all other actions in the colony). *If multiple addresses have this permission, a majority must approve turning off recovery mode.*
+## Récupération 🚑
+* Activer et désactiver le mode de récupération (qui bloque toutes les autres actions de la colonie). *Si plusieurs adresses ont cette autorisation, la désactivation du mode de récupération se fait à la majorité.*
