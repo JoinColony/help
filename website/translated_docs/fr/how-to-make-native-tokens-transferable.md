@@ -1,25 +1,25 @@
 ---
-id: how-to-make-native-tokens-transferable
-title: How Can I Make My Colony's Native Tokens Transferable?
-sidebar_label: How Can I Make My Colony's Native Tokens Transferable?
+id: comment-rendre-transferables-les-jetons-natifs
+title: Comment rendre transférables les jetons natifs de ma colonie
+sidebar_label: Comment rendre transférables les jetons natifs de ma colonie
 ---
 
-By default, your colony's native tokens are non-transferable.
+Par défaut, les jetons natifs de votre colonie ne sont pas transférables.
 
-The colony founder can unlock your colony's native token to make them transferable.
+Le fondateur de la colonie peut déverrouiller les jetons natifs de votre colonie pour les rendre transférables.
 
-**But beware; what is done, cannot be undone.** Once you unlock your colony's native token, they cannot be locked again in future.
+**Mais, attention : cette opération ne peut pas être annulée !** Une fois que vous aurez déverrouillé le jeton natif de votre colonie, il ne pourra plus jamais être verrouillé à nouveau.
 
 
 
-To unlock your colony's native token, click on the Settings icon ⚙ on your colony's home page.
+Pour déverrouiller le jeton natif de votre colonie, cliquez sur l'icône des paramètres ⚙ sur la page d'accueil de votre colonie.
 
-Click the **Advanced** tab.
+Cliquez sur l'onglet « **Avancé** » (« Advanced »).
 
-Click **Unlock Token**.
+Cliquez sur « **Déverrouiller le jeton** » (« Unlock token »).
 
-Click **Confirm**.
+Cliquez sur « **Confirmer** » (« Confirm »).
 
-Yay! Now your token is unlocked and people can send it freely! 🎉
+Parfait ! Maintenant, votre jeton est déverrouillé, et tout le monde peut en envoyer librement ! 🎉
 
-![unlock tokens](assets/how-to-make-native-tokens-transferable/1.gif)
+![déverrouiller les jetons](assets/how-to-make-native-tokens-transferable/1.gif)
