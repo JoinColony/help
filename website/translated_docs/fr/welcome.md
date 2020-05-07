@@ -1,11 +1,11 @@
 ---
-id: welcome
-title: Welcome to Colony!
-sidebar_label: Welcome
+id: bienvenue
+title: Bienvenue sur Colony !
+sidebar_label: Bienvenue
 ---
 
-We're glad you stopped by.
+Nous sommes heureux que vous soyez passés par là !
 
-These pages will help you get your colony account set up and guide you through your first interactions with a colony.
+Ces pages vous aideront à configurer votre compte Colony, et à vous guider dans vos premières interactions avec une colonie.
 
-If you run into any trouble, feel free to ask for help over in our [community chat](https://clny.io/discord).
+Si vous rencontrez des problèmes, n'hésitez pas à demander de l'aide dans notre [chat communautaire](https://clny.io/discord).
