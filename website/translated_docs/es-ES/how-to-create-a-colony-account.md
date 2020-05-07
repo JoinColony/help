@@ -1,5 +1,5 @@
 ---
-id: how-to-create-a-colony-account
+id: cómo crear una colony
 title: How to Create a Colony Account
 sidebar_label: How to Create a Colony Account
 ---
