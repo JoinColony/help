@@ -1,23 +1,23 @@
 ---
-id: how-to-create-a-colony
-title: How to Create a Colony
-sidebar_label: How to Create a Colony
+id: comment-creer-une-colonie
+title: Comment créer une colonie
+sidebar_label: Comment créer une colonie
 ---
 
-Once you have created your colony account, creating a new colony is easy.
+Dès lors que vous avez votre compte Colony, il n’y a rien de plus simple que de créer une nouvelle colonie.
 
-Click your profile image and select “Create A Colony”.
+Cliquez sur votre icône de profil, puis sur « Créer une colonie » (« Create A Colony »).
 
-Enter your colony’s name and choose your colony’s URL.
+Choisissez le nom de votre colonie, ainsi que son URL.
 
-Pick your native token. (Need help choosing your native token? Check out [this article](todo))
+Choisissez votre jeton natif. (Besoin d'aide pour choisir votre jeton natif ? Consultez [cet article](todo).)
 
-Confirm all of the details.
+Confirmez tous les détails.
 
-Deploy your colony to the blockchain! (You will need ETH to pay for these transactions)
+Déployez votre colonie dans la blockchain ! (Vous aurez besoin d'un peu d’ETH pour payer les transactions)
 
-🎉Yay! 🎉 You just created your first colony!
+🎉 Parfait ! 🎉 Vous venez de créer votre première colonie !
 
-Next you will want to fund your colony.
+Après, bien sûr, il faudra financer votre colonie…
 
-![Work on a task](assets/how-to-create-a-colony/1.gif)
+![Travailler sur une tâche](assets/how-to-create-a-colony/1.gif)
