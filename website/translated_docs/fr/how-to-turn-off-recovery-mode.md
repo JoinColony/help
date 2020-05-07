@@ -1,27 +1,27 @@
 ---
-id: how-to-turn-off-recovery-mode
-title: How Do I Turn Off Recovery Mode?
-sidebar_label: How Do I Turn Off Recovery Mode?
+id: comment-annuler-le-mode-recuperation
+title: Comment annuler le mode récupération
+sidebar_label: Comment annuler le mode récupération
 ---
 
-You hit the recovery mode button and now your colony is frozen.
+Vous avez appuyé sur le bouton "Mode récupération" ("Recovery mode") et maintenant votre colonie est gelée.
 
-What now?
+Et maintenant ?
 
-Once you are confident that everything in your colony is as it should be, you will need to interact with the colony contracts directly.
+Une fois que vous aurez la certitude que tout dans votre colonie est opérationnel comme il se doit, vous interagirez directement avec les contrats de colonie.
 
-Go to https://mycrypto.com/contracts/interact
+Allez sur https://mycrypto.com/contracts/interact
 
-In contract address, put your colony address.
+Dans l'adresse de contrat, indiquez l'adresse de votre colonie.
 
-In the ABI/JSON Interface field, copy and paste this:
+Dans le champ "ABI/JSON Interface", copiez et collez ceci :
 ```
 [{"constant":false,"inputs":[],"name":"exitRecoveryMode","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"approveExitRecovery","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
 ```
-Select **approveExitRecovery**
+Sélectionnez **approveExitRecovery**
 
-Sign in to your wallet, and make that transaction.
+Connectez-vous à votre portefeuille, et effectuez cette transaction.
 
-Select **exitRecoveryMode** and make that transaction.
+Sélectionnez **exitRecoveryMode** et effectuez cette transaction.
 
-Your colony should now no longer be in recovery mode.
+Votre colonie est désormais sortie du mode récupération.
