@@ -1,62 +1,62 @@
 ---
-id: failed-transaction
-title: A Transaction Failed While I Was Creating My Colony, What Now?
-sidebar_label: Failed Transaction, What Now?
+id: echec-de-transaction
+title: Une transaction a échoué pendant que je créais ma colonie. Et maintenant ?
+sidebar_label: Échec de transaction. Et maintenant ?
 ---
 
-Usually when you create a colony, everything happens smoothly and you are up and running in no time. Every now and then though, something happens during setup (a metamask transaction fails, your battery runs out, your browser crashes, etc) and the process is interrupted.
+Habituellement, lorsque vous créez une colonie, tout se passe sans problème et en un rien de temps. Malgré tout, de temps en temps, quelque chose se passe mal lors de la configuration (une transaction Metamask échoue, votre batterie est épuisée, votre navigateur s'arrête, etc.), et le processus est interrompu.
 
-If colony creation is interrupted prior to the "Create Colony Name" transaction confirming, then you can simply start again (yes, this will unfortunately mean you have to pay for the previous transactions again).
+Si la création de la colonie est interrompue avant la confirmation de "Créer le nom de la colonie" ("Create Colony Name"), alors vous pouvez simplement recommencer (oui, cela signifie malheureusement que vous devrez repayer pour les transactions précédentes).
 
-However, if colony creation is interrupted after the "Create Colony Name" transaction, then you can use this guide to finish the process and ensure that your colony works as expected.
+En revanche, si la création de la colonie est interrompue après la transaction "Créer un nom de colonie", alors vous pouvez utiliser ce guide pour terminer le processus et vous assurer que votre colonie fonctionne comme prévu.
 
-*Note: If the "Deploy Token Authority" transaction fails, you will need to contact the colony team for help. The instructions cannot be posted here for security reasons.*
+*Note : Si la transaction "Deploy Token Authority" échoue, vous devrez contacter l'équipe Colony pour obtenir de l'aide. Les instructions dans ce cas ne peuvent pas être affichées ici pour des raisons de sécurité.*
 
-This guide will help you retry any of the following transactions:
+Ce guide vous permettra de recommencer à l'une des étapes (transactions) suivantes :
 
-1. Set Token Authority
-2. Add OneTxPayment Extension
-3. Give Permission to OneTxPayment Extension
+1. Définir l'autorité de jeton ("Set Token Authority")
+2. Ajouter une extension "OneTxPayment"
+3. Donner l'autorisation à l'extension "OneTxPayment"
 
-*Note: Please do not hesitate to reach out to the colony team if you want help with these transactions. You can reach us at any time on our Discord at clny.io/discord.*
+*Remarque : N’hésitez pas à contacter l’équipe Colony si vous souhaitez obtenir de l’aide pour ces transactions. Vous pouvez nous joindre à tout moment via Discord sur clny.io/discord.*
 
-## Set Token Authority
-Navigate to https://mycrypto.com/contracts/interact.
+## Définir l'autorité de jeton
+Allez sur https://mycrypto.com/contracts/interact.
 
-**Contract Address:** Token address deployed in transaction 1 **ABI:**
+**Contract Address :** Adresse du jeton déployée dans la transaction 1 **ABI :**
 ```
 [{"constant":false,"inputs":[{"name":"authority_","type":"address"}],"name":"setAuthority","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
 ```
-**Read/Write Contract:** setAuthority **authority_address:** The address of the authority contract that was deployed in transaction four. **Value:** **Gas Limit:** `50,000`
+**Read/Write Contract :** setAuthority **autority_address :** L'adresse du contrat d'autorité qui a été déployé dans la transaction quatre. **Value:** **Gas Limit:** `50,000`
 
 
 
-## Add OneTxPayment Extension to Colony
-Navigate to https://mycrypto.com/contracts/interact.
+## Ajouter une extension "OneTxPayment"
+Allez sur https://mycrypto.com/contracts/interact.
 
 **Contract address:** `0x6fb63009e3e03cbf6917647d64ad81939f267067` **ABI:**
 ```
 [{"constant":false,"inputs":[{"name":"_colony","type":"address"}],"name":"deployExtension","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
 ```
-**Read/Write Contract:** deployExtension **_colony address:** Address of colony **Value:** **Gas Limit:** 1,300,000
+**Read/Write Contract:** deployExtension **_colony address:** Adresse de la colonie **Value:** **Gas Limit:** 1,300,000
 
-Once the transaction is confirmed, you can find the address of your newly deployed OneTxPayment Extension in the Event Logs tab on Etherscan.
+Une fois la transaction confirmée, vous pouvez trouver l'adresse de votre extension OneTxPayment récemment déployée dans l'onglet "Event Logs" sur Etherscan.
 
-Click the "View on Etherscan" button in MyCrypto or Navigate to etherscan.io/tx/{transaction hash}
+Cliquez sur le bouton "Voir sur Etherscan" ("View on Etherscan") dans MyCrypto ou accédez à etherscan.io/tx/{transaction hash}
 
 ![etherscan](assets/failed-transaction/1.png)
 
-## Give Permission to OneTxPayment Extension
-Navigate to the **Permissions** tab in your colony's settings.
+## Donner l'autorisation à l'extension "OneTxPayment"
+Accédez à l'onglet **Autorisations** ("Permissions") dans les paramètres de votre colonie.
 
-Click **Add Role**
+Cliquez sur **Ajouter un rôle** ("Add Role")
 
-Enter the address of the OneTxPayment contract that you deployed.
+Entrez l'adresse du contrat OneTxPayment que vous avez déployé.
 
-Check **Funding** and **Administration**.
+Vérifiez **Financement** ("Funding") et **Administration**.
 
-Click **Confirm** and sign the Ethereum transactions.
+Cliquez sur **Confirmer** ("Confirm") et signez les transactions Ethereum.
 
-Bam! Your colony is operational! 🎉
+Et BAM ! Votre colonie est opérationnelle ! 🎉
 
-![permissions](assets/failed-transaction/2.png)
+![autorisations](assets/failed-transaction/2.png)
