@@ -1,21 +1,21 @@
 ---
-id: how-to-mint-tokens
-title: How to Mint Tokens
-sidebar_label: How to Mint Tokens
+id: comment-frapper-de-nouveaux-jetons
+title: Comment frapper de nouveaux jetons
+sidebar_label: Comment frapper de nouveaux jetons
 ---
 
-If a new native token was created when your colony was set up, your colony has the ability to mint new native tokens whenever it likes.
+Si, à la création de la colonie, un nouveau jeton natif a été créé (plutôt que d’en apporter un existant), alors votre colonie a la possibilité d’émettre de nouveaux jetons natifs à tout moment.
 
-In order to mint new tokens for the colony, you will need the root permission. The Colony Founder has this permission by default.
+Pour émettre (frapper) de nouveaux jetons pour la colonie, vous aurez besoin de l'autorisation « root ». Le fondateur de la colonie possède cette autorisation, par défaut.
 
-Navigate to your colony’s dashboard and click the **Settings** icon ⚙ next to your colony’s name.
+Ouvrez le tableau de bord de votre colonie, et cliquez sur l'icône des **paramètres** ⚙ à côté du nom de votre colonie.
 
-Click on the **Tokens** tab.
+Cliquez sur l'onglet « **Jetons** » (« Tokens »).
 
-Click **Mint New Tokens**.
+Cliquez sur « **Frapper de nouveaux jetons** » (« Mint new tokens »).
 
-Enter the number of tokens you would like to mint and click **Confirm**.
+Entrez le nombre de jetons que vous souhaitez émettre, puis cliquez sur « **Confirmer** » (« Confirm »).
 
-Yay! You just minted some tokens! 🎉
+Parfait ! Vous venez de frapper de nouveaux jetons ! 🎉
 
-![mint tokens](assets/how-to-mint-tokens/1.gif)
+![frapper des jetons](assets/how-to-mint-tokens/1.gif)
