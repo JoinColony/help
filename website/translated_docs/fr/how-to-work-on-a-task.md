@@ -1,15 +1,15 @@
 ---
-id: how-to-work-on-a-task
-title: How to Work on a Task
-sidebar_label: How to Work on a Task
+id: comment-travailler-sur-une-tache
+title: Comment travailler sur une tâche
+sidebar_label: Comment travailler sur une tâche
 ---
 
-Find a task that you would like to complete and give it a click.
+Trouvez une tâche sur laquelle vous souhaitez travailler, puis cliquez dessus.
 
-Click the **Request to Work** button.
+Cliquez sur le bouton « **Demander à travailler** » (« Request to Work »).
 
-Cross your fingers 🤞, hope the admin picks you, then get to work!
+Maintenant, croisez les doigts 🤞 en espérant que l'administrateur vous choisira… Après cela, mettez-vous au travail !
 
-When you are done, let the admin know so they can finalize the task and reward your work with Reputation and/or rewards.
+Lorsque vous aurez terminé, informez l'administrateur afin qu'il puisse finaliser la tâche et récompenser votre travail, avec de la réputation et/ou d’autres récompenses.
 
-![Work on a task](assets/how-to-work-on-a-task/1.gif)
+![Travailler sur une tâche](assets/how-to-work-on-a-task/1.gif)
