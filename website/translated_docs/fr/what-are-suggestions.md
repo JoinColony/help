@@ -1,15 +1,15 @@
 ---
-id: what-are-suggestions
-title: What Are Suggestions?
-sidebar_label: What Are Suggestions?
+id: que-sont-les-suggestions
+title: Que sont les suggestions ?
+sidebar_label: Que sont les suggestions ?
 ---
 
 ![suggestions](assets/what-are-suggestions/1.png)
 
-The suggestions tab is on open board where anyone can suggest a task for a colony.
+L'onglet suggestions est une liste ouverte, où n'importe qui peut suggérer une tâche pour une colonie.
 
-Creating a suggestion is easy, simply type in your suggestion and hit the "create suggestion" button.
+Créer une suggestion est très simple. Entrez simplement votre suggestion et cliquez sur le bouton "créer une suggestion" ("create suggestion").
 
-You can upvote suggestions that you like and admins can accept suggestions to automatically generate a linked task.
+Vous pouvez voter pour les suggestions que vous aimez, et les administrateurs peuvent accepter des suggestions pour générer automatiquement une tâche liée.
 
 ![suggestions](assets/what-are-suggestions/2.gif)
