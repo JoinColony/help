@@ -1,39 +1,39 @@
 ---
-id: how-to-choose-a-native-token
-title: How to Choose a Native Token
-sidebar_label: How to Choose a Native Token
+id: comment-choisir-un-jeton-natif
+title: Comment choisir un jeton natif
+sidebar_label: Comment choisir un jeton natif
 ---
 
-Picking the right native token is one of the most important decisions that you need to make when you set up your colony.
+Choisir le bon « jeton natif » est l'une des décisions les plus importantes que vous devez prendre lorsque vous mettez en place votre colonie.
 
-Sending native tokens is how your colony distributes reputation.
+Envoyer des jetons natifs, c’est distribuer de la réputation.
 
-Once you have selected the native token, it cannot be changed.
+Une fois que vous aurez sélectionné le jeton natif, il ne pourra plus être modifié.
 
-As such, it is important that you understand the potential implications of different choices.
+En conséquence, il est important que vous compreniez les implications des différentes possibilités qui s’offrent à vous.
 
 
 
-You have two options when picking a native token, each with their own benefits and considerations; create a token or bring your own token
+Vous avez deux options pour choisir un jeton natif, chacune avec ses propres avantages et inconvénients. Vous pouvez créer un jeton ou apporter votre propre jeton.
 
-## Create a new token
-**Benefit**
+## Créer un nouveau jeton
+**Avantage**
 
-Easily gives your colony the ability to mint new tokens and to define how and why they are valuable.
+Vous pourrez facilement frapper de nouveaux jetons, et ainsi garder la main et faire varier leur valeur. C’est comme émettre de la monnaie.
 
-**Considerations**
+**Inconvénients**
 
-You will need to define why the token is valuable; how, when, and why is it distributed and at what rate? This will determine how reputation in your colony is earned.
+C’est à vous que revient la responsabilité de donner de la valeur à ce jeton. Vous aurez à vous poser des questions comme « Comment ? », « Dans quel but ? », « Quand et à quelle fréquence ? », etc. Cela sera déterminant sur la gestion de la réputation.
 
-![create a token](assets/how-to-choose-a-native-token/1.png)
+![créer un jeton](assets/how-to-choose-a-native-token/1.png)
 
-## Bring your own token (BYOT)
-**Benefit**
+## Apporter votre propre jeton
+**Avantage**
 
-Your colony’s reputation is pegged to an existing token, that (presumably) has an economic model. For example, if you choose DAI, reputation in your colony is a reflection of the US dollar value that the colony has been willing to pay you; a good proxy for how valuable your contributions are to the colony.
+La réputation de votre colonie est liée à un jeton existant ; et à priori, ce jeton possède un véritable modèle économique. Par exemple, si vous choisissez le « DAI » (sorte de « dollar américain numérique »), la réputation au sein de la colonie sera directement mesurée en dollars. C’est du coup un bon indicateur de la valeur de vos contributions à la colonie.
 
-**Considerations**
+**Inconvénients**
 
-Your colony’s reputation is exposed to the risks and fluctuations of whichever token you choose. This is compounded if you select a native token that you do not control, like DAI for example.
+Bien évidemment, la réputation de votre colonie subira les fluctuations du jeton que vous choisissez. C’est lié au fait que vous ne contrôlez pas votre jeton (typiquement, comme le « DAI »).
 
-![bring a token](assets/how-to-choose-a-native-token/2.png)
+![apporter un jeton](assets/how-to-choose-a-native-token/2.png)
