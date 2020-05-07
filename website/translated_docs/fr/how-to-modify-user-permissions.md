@@ -1,24 +1,24 @@
 ---
-id: how-to-modify-user-permissions
-title: How to Modify User Permissions
-sidebar_label: How to Modify User Permissions
+id: comment-modifier-les-permissions-utilisateur
+title: Comment modifier les permissions d’un utilisateur
+sidebar_label: Comment modifier les permissions d’un utilisateur
 ---
 
-Modifying permissions in a colony is simple.
+Modifier les permissions dans une colonie est très simple.
 
-Before you give a user permissions in a colony, make sure you understand what the permissions in a colony enable.
+Avant de donner des autorisations à un utilisateur dans une colonie, assurez-vous de comprendre ce que les autorisations permettent.
 
-## Modify a user's permissions
-Navigate to the your colony's **Settings**.
+## Modifier les permissions d'un utilisateur
+Accédez aux « **paramètres** » (« Settings ») de votre colonie.
 
-Click the **Permissions** tab.
+Cliquez sur l'onglet « **Permissions** ».
 
-Select the domain in which you want to modify permissions.
+Sélectionnez le domaine dans lequel vous souhaitez modifier les autorisations.
 
-Select the user's avatar or paste in their Ethereum address.
+Sélectionnez l'avatar de l'utilisateur, ou collez son adresse Ethereum.
 
-Then select the permissions you want to change.
+Sélectionnez ensuite les autorisations que vous souhaitez modifier.
 
-Yay! Your just modified a user's permissions! 🎉
+Parfait ! Vous venez de modifier les permissions d'un utilisateur ! 🎉
 
-![modify permissions](assets/how-to-modify-user-permissions/1.gif)
+![modifier les permissions](assets/how-to-modify-user-permissions/1.gif)
