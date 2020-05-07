@@ -1,29 +1,29 @@
 ---
-id: how-to-create-a-colony-account
-title: How to Create a Colony Account
-sidebar_label: How to Create a Colony Account
+id: comment-creer-un-compte-colony
+title: Comment créer un compte Colony
+sidebar_label: Comment créer un compte Colony
 ---
 
-To create a Colony account, you will need an [Ethereum address](docs/how-to-get-an-etherem-wallet-address) and some [Ether]() to pay your transaction fees. ([Why are there transaction fees?]())
+Pour créer un compte Colony, vous aurez besoin d’une [adresse Ethereum](docs/comment-obtenir-un-portefeuille-ethereum) et d’un peu d’[Ether]() pour payer les frais de transaction. ([Pourquoi y a-t-il des frais de transaction ?]())
 
-Once you have an Ethereum address and some Ether, creating your Colony account is simple. No email address and password are needed, simply authenticate with your Ethereum wallet and you are in!
+Une fois ces conditions réunies, créer un compte Colony est très simple. Vous n’avez besoin ni d’adresse e-mail, ni de mot de passe ; c’est votre portefeuille Ethereum qui sert à l’authentification !
 
-![Choose a wallet](assets/how-to-create-a-colony-account/1.png)
+![Choisir un portefeuille](assets/how-to-create-a-colony-account/1.png)
 
-Under your profile avatar, **select Get started**.
+Sous l'icône de votre profil, sélectionnez « **Commencer** » (« Getting started »).
 
-![Get Started](assets/how-to-create-a-colony-account/2.png)
+![Commencer](assets/how-to-create-a-colony-account/2.png)
 
-Choose a username
+Choisissez un nom d'utilisateur.
 
-![Username](assets/how-to-create-a-colony-account/3.png)
+![Nom d'utilisateur](assets/how-to-create-a-colony-account/3.png)
 
-Confirm the transaction to claim your username.
+Confirmez la transaction pour réserver votre nom d'utilisateur et l’attribuer à votre compte.
 
-![Confirm](assets/how-to-create-a-colony-account/4.png)
+![Confirmer](assets/how-to-create-a-colony-account/4.png)
 
-Yay! You have claimed your username!  🎉
+Parfait ! Vous venez de réserver votre nom d’utilisateur !  🎉
 
-You can customize your profile by clicking your profile image in the top right corner and selecting **Settings**.
+Vous pouvez personnaliser votre profil en cliquant sur votre icône dans le coin supérieur droit, puis en cliquant sur « **Paramètres** » (« Settings »).
 
-![Setting](assets/how-to-create-a-colony-account/5.png) ![Profile](assets/how-to-create-a-colony-account/6.png)
+![Paramètres](assets/how-to-create-a-colony-account/5.png) ![Profil](assets/how-to-create-a-colony-account/6.png)
