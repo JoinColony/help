@@ -1,37 +1,37 @@
 ---
-id: how-to-create-a-task
-title: How to Create a Task
-sidebar_label: How to Create a Task
+id: comment-creer-une-tache
+title: Comment créer une tâche
+sidebar_label: Comment créer une tâche
 ---
 
-(then fund it, and assign it to someone) This guide shows you how to:
+(... puis la financer, et l’assigner à quelqu'un) Dans ce guide, vous appendrez à :
 
-1. Create a task
-2. Assign it to someone
-3. Fund the task
+1. Créer une tâche
+2. Assigner la tâche à quelqu'un
+3. Financer la tâche
 
-## Create a task
-Click the **New Task** button.
+## Créer une tâche
+Cliquez sur le bouton « **Nouvelle tâche** » (« New task »).
 
-Fill in the title and description. Add a domain, a skill, and a due date (optional). Assign the task to someone (optional) and fund the task.
+Remplissez le titre et la description. Ajoutez un domaine, une compétence et une date d'échéance (facultatif). Attribuez la tâche à quelqu'un (facultatif) et financez la tâche.
 
-Your task will now appear in the **Open Task** list.
+Votre tâche apparait maintenant dans la liste des **tâches ouvertes** (« Open tasks »).
 
-![New task](assets/how-to-create-a-task/1.gif)
+![Nouvelle tâche](assets/how-to-create-a-task/1.gif)
 
-## Assign the task
-When you are ready to assign the task to someone, click **Details** in the task view.
+## Assigner la tâche
+Quand vous êtes prêt à affecter la tâche à quelqu'un, cliquez sur « **Détails** » (« Details ») dans la vue des tâches.
 
-Anyone that has requested to work on the task will show up in the list. You can also assign the task to any user by pasting their Ethereum address into the **Select Assignee** field.
+Toute personne ayant demandé à travailler sur la tâche apparaitra dans la liste. Vous pouvez également affecter la tâche à n'importe quel utilisateur en collant son adresse Ethereum dans le champ « **Assigner une personne** » (« Select assignee »).
 
 
-## Add funding to the task
-Hit **Add+** to add funding to the task.
+## Financer la tâche
+Appuyez sur « **Ajouter+** » (« Add+ ») pour ajouter du financement à la tâche.
 
-Select the tokens and values that you would like to assign to the task, and click **Confirm**.
+Sélectionnez les jetons et les valeurs que vous souhaitez attribuer à la tâche, puis cliquez sur « **Confirmer** » (« Confirm »).
 
-If you assign your colony's native tokens to the task, the worker will also earn Reputation in your colony.
+Si vous attribuez des jetons natifs de votre colonie à la tâche, celui qui travaillera gagnera également la réputation correspondante dans votre colonie.
 
-Yay! You successfully created, assigned, and funded a task! 🎉
+Parfait ! Vous avez créé, attribué et financé une nouvelle tâche ! 🎉
 
-![add funding to a task](assets/how-to-create-a-task/1.gif)
+![ajouter du financement à une tâche](assets/how-to-create-a-task/1.gif)
