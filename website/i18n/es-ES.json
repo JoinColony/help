@@ -38,44 +38,44 @@
         "sidebar_label": "Cómo unirse a una colonia"
       },
       "how-to-make-native-tokens-transferable": {
-        "title": "How Can I Make My Colony's Native Tokens Transferable?",
-        "sidebar_label": "How Can I Make My Colony's Native Tokens Transferable?"
+        "title": "¿Cómo puedo hacer que los tokens nativos de mi Colonia sean transferibles?",
+        "sidebar_label": "¿Cómo puedo hacer que los tokens nativos de mi Colonia sean transferibles?"
       },
       "how-to-mint-tokens": {
-        "title": "How to Mint Tokens",
-        "sidebar_label": "How to Mint Tokens"
+        "title": "Cómo minar tokens",
+        "sidebar_label": "Cómo minar tokens"
       },
       "how-to-modify-user-permissions": {
-        "title": "How to Modify User Permissions",
-        "sidebar_label": "How to Modify User Permissions"
+        "title": "Cómo modificar los permisos del usuario",
+        "sidebar_label": "Cómo modificar los permisos del usuario"
       },
       "how-to-turn-off-recovery-mode": {
-        "title": "How Do I Turn Off Recovery Mode?",
-        "sidebar_label": "How Do I Turn Off Recovery Mode?"
+        "title": "¿Cómo hago para apagar el modo de recuperación?",
+        "sidebar_label": "¿Cómo hago para apagar el modo de recuperación?"
       },
       "how-to-work-on-a-task": {
-        "title": "How to Work on a Task",
-        "sidebar_label": "How to Work on a Task"
+        "title": "Cómo trabajar en una tarea",
+        "sidebar_label": "Cómo trabajar en una tarea"
       },
       "welcome": {
-        "title": "Welcome to Colony!",
-        "sidebar_label": "Welcome"
+        "title": "¡Bienvenido a Colony!",
+        "sidebar_label": "Bienvenid@"
       },
       "what-are-domains": {
-        "title": "What Are Domains?",
-        "sidebar_label": "What Are Domains?"
+        "title": "¿Qué son los dominios?",
+        "sidebar_label": "¿Qué son los dominios?"
       },
       "what-are-permissions": {
-        "title": "What Are Permissions?",
-        "sidebar_label": "What Are Permissions?"
+        "title": "¿Qué son los permisos?",
+        "sidebar_label": "¿Qué son los permisos?"
       },
       "what-are-skills": {
-        "title": "What Are Skills?",
-        "sidebar_label": "What Are Skills?"
+        "title": "¿Qué son las habilidades?",
+        "sidebar_label": "¿Qué son las habilidades?"
       },
       "what-are-suggestions": {
-        "title": "What Are Suggestions?",
-        "sidebar_label": "What Are Suggestions?"
+        "title": "¿Qué son las sugerencias?",
+        "sidebar_label": "¿Qué son las sugerencias?"
       }
     },
     "links": {
@@ -84,13 +84,13 @@
       "App": "App"
     },
     "categories": {
-      "Getting Started": "Getting Started",
+      "Getting Started": "Comenzando",
       "F.A.Q.": "F.A.Q."
     }
   },
   "pages-strings": {
-    "Help Translate|recruit community translators for your project": "Help Translate",
-    "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
-    "Translate this Doc|recruitment message asking to translate the docs": "Translate"
+    "Help Translate|recruit community translators for your project": "Ayude a traducir",
+    "Edit this Doc|recruitment message asking to edit the doc source": "Editar",
+    "Translate this Doc|recruitment message asking to translate the docs": "Traducir"
   }
 }
