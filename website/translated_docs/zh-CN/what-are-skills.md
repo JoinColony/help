@@ -1,10 +1,10 @@
 ---
-id: what-are-skills
-title: What Are Skills?
-sidebar_label: What Are Skills?
+id: 什么是技能
+title: 什么是技能？
+sidebar_label: 什么是技能？
 ---
 
-Along with being assigned a [domain](what-are-domains.md), each task can also be assigned a skill.
+除了被分配一个 [域](what-are-domains.md)之外, 每个任务还可以被分配一项技能。
 
 While domains are intended as an organizational structure within a colony, tasks are intended to capture the nature of, and skill require, to complete the task.
 
