@@ -26,22 +26,22 @@ sidebar_label: 什么是技能？
 | 文案撰写                                             |        33 |      11 |
 | 客服                                               |        34 |      12 |
 | 电子邮件营销                                           |        35 |      13 |
-| Finance                                          |        36 |      14 |
-| Human Resources                                  |        37 |      15 |
-| Learning & Development                           |        38 |      16 |
-| Legal                                            |        39 |      17 |
-| Marketing & Communications                       |        40 |      18 |
-| Operations                                       |        41 |      19 |
-| Partnerships                                     |        42 |      20 |
-| Recruiting                                       |        43 |      21 |
-| Sales                                            |        44 |      22 |
-| SEO                                              |        45 |      23 |
-| Social Media                                     |        46 |      24 |
+| 金融                                               |        36 |      14 |
+| 人力资源                                             |        37 |      15 |
+| 研究 & 开发                                          |        38 |      16 |
+| 法律                                               |        39 |      17 |
+| 营销 & 传播                                          |        40 |      18 |
+| 运营                                               |        41 |      19 |
+| 合作伙伴关系                                           |        42 |      20 |
+| 招聘                                               |        43 |      21 |
+| 销售                                               |        44 |      22 |
+| 搜索引擎优化                                           |        45 |      23 |
+| 社交媒体                                             |        46 |      24 |
 |                                                  |           |         |
-| **Engineering & Technology**                     |    **-2** |  **-2** |
-| Software Engineering                             |        47 |      25 |
-| Frontend Development                             |        48 |      26 |
-| Backend Development                              |        49 |      27 |
+| **工程 & 技术**                                      |    **-2** |  **-2** |
+| 软件工程                                             |        47 |      25 |
+| 前端开发                                             |        48 |      26 |
+| 后端开发                                             |        49 |      27 |
 | Mobile Development                               |        50 |      28 |
 | Web Development                                  |        51 |      29 |
 | DevOps                                           |        52 |      30 |
