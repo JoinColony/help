@@ -4,12 +4,12 @@ title: 什么是域？
 sidebar_label: 什么是域？
 ---
 
-域构成了 colony 的内部组织结构。 Similar to the file system on your computer, each Domain is like a folder. In the same way that a folder contains files and subfolders, a Domain can contain tasks, payments, and subdomains.
+域构成了 colony 的内部组织结构。 与您电脑上的文件系统类似，每个域就好比是一个文件夹。 同样，与文件夹包含文件和子文件夹一样，域可以包含任务、付款，和子域。
 
-![unlock tokens](assets/what-are-domains/1.png)
+![解锁通证](assets/what-are-domains/1.png)
 
-Aside from keeping everything neat and tidy, Domains serve two important functions:
+除了保持一切整洁以外，域还有两个重要的功能：
 
-1. They allow for [domain-specific permissions](what-are-permissions.md), which let you granularly define which accounts have which permissions throughout the colony.
+1. 它们允许 [特定域的权限](what-are-permissions.md)，允许您精准地自定义在您的 colony 中，哪些帐户拥有哪些权限。
 
-2. They make Reputation more contextual by awarding Reputation in a specific Domain (and all of its parent domains) rather than globally throughout the colony.
+2. 它可以通过在特定域（及其所有父域）授予声誉值，而不是在整个 colony，从而让声誉值更具关联性。
