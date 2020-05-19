@@ -29,14 +29,14 @@ Colony 有六个可分配给任何以太坊地址的权限类别，包括：资�
 
 ## 架构 💪🏽
 * 可以创建子域
-* 可以管理子域的权限（而非域本身）*温馨提示：在某些情况下，您可能会注意到架构子域。 This permission allows the holder to manage permissions in the domain that the permission is granted, rather than only in the subdomains.*
+* 可以管理子域的权限（而非域本身）*温馨提示：在某些情况下，您可能会注意到架构子域。 此权限允许权限所有者在被授予该权限的域中进行权限管理，而不是仅在子域中。*
 
 
-## Root ⚡
-* Modify colony-wide parameters
-* Upgrade the colony
-* Manage permissions in Root Domain
+## 根 ⚡
+* 修改整个 colony 的全局参数
+* 升级 colony
+* 管理根域中的权限
 
 
-## Recovery 🚑
-* Turn on and off recovery mode (which freezes all other actions in the colony). *If multiple addresses have this permission, a majority must approve turning off recovery mode.*
+## 恢复 🚑
+* 开启和关闭恢复模式（冻结 colony 中的所有其他操作）。 *如果多个账户地址拥有此权限，则必须通过多数地址批准方可关闭恢复模式。*
