@@ -1,16 +1,16 @@
 ---
-id: how-to-turn-off-recovery-mode
-title: How Do I Turn Off Recovery Mode?
-sidebar_label: How Do I Turn Off Recovery Mode?
+id: 如何关闭恢复模式
+title: 如何关闭恢复模式
+sidebar_label: 如何关闭恢复模式
 ---
 
-You hit the recovery mode button and now your colony is frozen.
+当你点击恢复模式按钮，你的 colony 会被冻结。
 
-What now?
+现在该怎么办？
 
-Once you are confident that everything in your colony is as it should be, you will need to interact with the colony contracts directly.
+当你确定你的 colony 一切正常之后，你需要与 colony 合约交互。
 
-Go to https://mycrypto.com/contracts/interact
+请跳转至 https://mycrypto.com/contracts/interact
 
 In contract address, put your colony address.
 
