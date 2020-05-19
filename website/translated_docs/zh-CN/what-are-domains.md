@@ -1,10 +1,10 @@
 ---
-id: what-are-domains
-title: What Are Domains?
-sidebar_label: What Are Domains?
+id: 什么是域
+title: 什么是域？
+sidebar_label: 什么是域？
 ---
 
-Domains make up the internal organizational structure of a colony. Similar to the file system on your computer, each Domain is like a folder. In the same way that a folder contains files and subfolders, a Domain can contain tasks, payments, and subdomains.
+域构成了 colony 的内部组织结构。 Similar to the file system on your computer, each Domain is like a folder. In the same way that a folder contains files and subfolders, a Domain can contain tasks, payments, and subdomains.
 
 ![unlock tokens](assets/what-are-domains/1.png)
 
