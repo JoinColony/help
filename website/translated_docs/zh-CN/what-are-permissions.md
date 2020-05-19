@@ -1,7 +1,7 @@
 ---
-id: what-are-permissions
-title: What Are Permissions?
-sidebar_label: What Are Permissions?
+id: 什么是权限
+title: 什么是权限？
+sidebar_label: 什么是权限？
 ---
 
 Colony has six permission classes which can be assigned to any Ethereum address: Funding, Administration, Arbitration, Architecture, Root, and Recovery.
