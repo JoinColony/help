@@ -47,16 +47,16 @@ sidebar_label: 交易失败，我该怎么办？
 ![etherscan](assets/failed-transaction/1.png)
 
 ## 给 OneTxPayment Extension 授权
-Navigate to the **Permissions** tab in your colony's settings.
+在你的 colony 设置中导航至 **Permissions** 标签
 
-Click **Add Role**
+点击 **Add Role**
 
-Enter the address of the OneTxPayment contract that you deployed.
+输入您部署的 OneExpayment 合约的地址。
 
-Check **Funding** and **Administration**.
+检查 **Funding** 以及 **Administration**.
 
-Click **Confirm** and sign the Ethereum transactions.
+点击 **Confirm** 并登录以太坊交易。
 
-Bam! Your colony is operational! 🎉
+棒！ 您的 colony 已经可以正常使用啦! 🎉
 
-![permissions](assets/failed-transaction/2.png)
+![权限](assets/failed-transaction/2.png)
