@@ -1,11 +1,11 @@
 ---
-id: welcome
-title: Welcome to Colony!
-sidebar_label: Welcome
+id: 欢迎
+title: 欢迎来到 Colony！
+sidebar_label: 欢迎
 ---
 
-We're glad you stopped by.
+非常荣幸您的到来！
 
-These pages will help you get your colony account set up and guide you through your first interactions with a colony.
+这些文档将帮助您创建您的 colony 账户，并引导您完成与 colony 的首次交互。
 
-If you run into any trouble, feel free to ask for help over in our [community chat](https://clny.io/discord).
+如果您遇到任何疑问或者麻烦，请随时进入我们的 [社区聊天室](https://clny.io/discord) 寻求帮助。
