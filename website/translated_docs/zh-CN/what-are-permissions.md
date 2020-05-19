@@ -19,16 +19,16 @@ Colony 有六个可分配给任何以太坊地址的权限类别，包括：资�
 
 ## 管理 👔
 * 可以操纵其域中的付款（任务）行为
-* Able to raise disputes
+* 可以提起质询
 
 
-## Arbitration 🔨
-* Able to resolve disputes in their domain (i.e. change arbitrary state)
-* Able to set the escrow period
+## 仲裁 🔨
+* 可以解决其域内的争端（即更改任意状态）
+* 可以设置托管期限
 
 
-## Architecture 💪🏽
-* Able to create subdomains
+## 架构 💪🏽
+* 可以创建子域
 * Able to manage permissions in subdomains (but not the domain itself) *Note, you may notice Architecture Subdomain in some instances. This permission allows the holder to manage permissions in the domain that the permission is granted, rather than only in the subdomains.*
 
 
