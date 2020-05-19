@@ -1,10 +1,10 @@
 ---
-id: failed-transaction
-title: A Transaction Failed While I Was Creating My Colony, What Now?
-sidebar_label: Failed Transaction, What Now?
+id: 交易失败
+title: 当我创建 colony 的过程中交易失败了，我该怎么办？
+sidebar_label: 交易失败，我该怎么办？
 ---
 
-Usually when you create a colony, everything happens smoothly and you are up and running in no time. Every now and then though, something happens during setup (a metamask transaction fails, your battery runs out, your browser crashes, etc) and the process is interrupted.
+通常，当您创建 colony 时一切都会顺利地进行，并很快就可以开始运行它。 不过，在安装过程中，有时会发生一些故障（MetaMask 交易失败、电池耗尽、浏览器崩溃等），从而导致进程中断。
 
 If colony creation is interrupted prior to the "Create Colony Name" transaction confirming, then you can simply start again (yes, this will unfortunately mean you have to pay for the previous transactions again).
 
