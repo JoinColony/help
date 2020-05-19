@@ -29,7 +29,7 @@ Colony 有六个可分配给任何以太坊地址的权限类别，包括：资�
 
 ## 架构 💪🏽
 * 可以创建子域
-* Able to manage permissions in subdomains (but not the domain itself) *Note, you may notice Architecture Subdomain in some instances. This permission allows the holder to manage permissions in the domain that the permission is granted, rather than only in the subdomains.*
+* 可以管理子域的权限（而非域本身）*温馨提示：在某些情况下，您可能会注意到架构子域。 This permission allows the holder to manage permissions in the domain that the permission is granted, rather than only in the subdomains.*
 
 
 ## Root ⚡
