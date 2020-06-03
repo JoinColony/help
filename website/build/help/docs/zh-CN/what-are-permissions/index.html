@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>What Are Permissions? · Colony Help</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Colony 有六个可分配给任何以太坊地址的权限类别，包括：资金（Funding）、管理（Administration）、仲裁（Arbitration,）、架构（Architecture）、根（Root），和恢复（Recovery）。"/><meta name="docsearch:language" content="zh-CN"/><meta property="og:title" content="What Are Permissions? · Colony Help"/><meta property="og:type" content="website"/><meta property="og:url" content="https://help.colony.io/"/><meta property="og:description" content="Colony 有六个可分配给任何以太坊地址的权限类别，包括：资金（Funding）、管理（Administration）、仲裁（Arbitration,）、架构（Architecture）、根（Root），和恢复（Recovery）。"/><meta property="og:image" content="https://help.colony.io/img/colony_social_card.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://help.colony.io/img/colony_social_card.png"/><link rel="shortcut icon" href="/img/logomark_white.svg"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/zh-CN"><img class="logo" src="/img/logomark_white.svg" alt="Colony Help"/><h2 class="headerTitleWithLogo">Colony Help</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://colony.io" target="_self">Colony</a></li><li class=""><a href="https://blog.colony.io" target="_self">Blog</a></li><li class=""><a href="https://colony.io/connect" target="_self">App</a></li><span><li><a id="languages-menu" href="#"><img class="languages-icon" src="/img/language.svg" alt="Languages icon"/>中文</a><div id="languages-dropdown" class="hide"><ul id="languages-dropdown-items"><li><a href="/docs/en/what-are-permissions">English</a></li><li><a href="/docs/es-ES/what-are-permissions">Español</a></li><li><a href="/docs/fr/what-are-permissions">Français</a></li></ul></div></li><script>
+        const languagesMenuItem = document.getElementById("languages-menu");
+        const languagesDropDown = document.getElementById("languages-dropdown");
+        languagesMenuItem.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (languagesDropDown.className == "hide") {
+            languagesDropDown.className = "visible";
+          } else {
+            languagesDropDown.className = "hide";
+          }
+        });
+      </script></span><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>F.A.Q.</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting Started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/zh-CN/welcome">Welcome</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-get-an-etherem-wallet-address">How to Get a Wallet</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-create-a-colony-account">How to Create a Colony Account</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-join-a-colony">How to Join a Colony</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-work-on-a-task">How to Work on a Task</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-create-a-colony">How to Create a Colony</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-choose-a-native-token">How to Choose a Native Token</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-create-a-task">How to Create a Task</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-fund-your-colony">How to Fund Your Colony</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-mint-tokens">How to Mint Tokens</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-modify-user-permissions">How to Modify User Permissions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">F.A.Q.<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/zh-CN/what-are-domains">What Are Domains?</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/what-are-skills">What Are Skills?</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/zh-CN/what-are-permissions">What Are Permissions?</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/what-are-suggestions">What Are Suggestions?</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/failed-transaction">Failed Transaction, What Now?</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-make-native-tokens-transferable">How Can I Make My Colony&#x27;s Native Tokens Transferable?</a></li><li class="navListItem"><a class="navItem" href="/docs/zh-CN/how-to-turn-off-recovery-mode">How Do I Turn Off Recovery Mode?</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">What Are Permissions?</h1></header><article><div><span><p>Colony 有六个可分配给任何以太坊地址的权限类别，包括：资金（Funding）、管理（Administration）、仲裁（Arbitration,）、架构（Architecture）、根（Root），和恢复（Recovery）。</p>
+<p>权限是在域级别分配的。 如果帐户被授予域中的某个权限，则他在该域所有子域中也具有相同的权限。</p>
+<p>需要注意的是，这些权限可以直接分配到用户的帐户，单方面授予该帐户权限，也可以分配到围绕权限实现某些其他逻辑的智能合约（例如信誉加权投票）。</p>
+<h1><a class="anchor" aria-hidden="true" id="权限"></a><a href="#权限" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>权限</h1>
+<h2><a class="anchor" aria-hidden="true" id="资金-"></a><a href="#资金-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>资金 💰</h2>
+<ul>
+<li>可以在域中任意转移资金</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="管理-"></a><a href="#管理-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>管理 👔</h2>
+<ul>
+<li>可以操纵其域中的付款（任务）行为</li>
+<li>可以提起质询</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="仲裁-"></a><a href="#仲裁-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>仲裁 🔨</h2>
+<ul>
+<li>可以解决其域内的争端（即更改任意状态）</li>
+<li>可以设置托管期限</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="架构-"></a><a href="#架构-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>架构 💪🏽</h2>
+<ul>
+<li>可以创建子域</li>
+<li>可以管理子域的权限（而非域本身）<em>温馨提示：在某些情况下，您可能会注意到架构子域。 此权限允许权限所有者在被授予该权限的域中进行权限管理，而不是仅在子域中。</em></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="根-"></a><a href="#根-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>根 ⚡</h2>
+<ul>
+<li>修改整个 colony 的全局参数</li>
+<li>升级 colony</li>
+<li>管理根域中的权限</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="恢复-"></a><a href="#恢复-" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>恢复 🚑</h2>
+<ul>
+<li>开启和关闭恢复模式（冻结 colony 中的所有其他操作）。 <em>如果多个账户地址拥有此权限，则必须通过多数地址批准方可关闭恢复模式。</em></li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 5/19/2020</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/zh-CN/what-are-skills"><span class="arrow-prev">← </span><span>What Are Skills?</span></a><a class="docs-next button" href="/docs/zh-CN/what-are-suggestions"><span>What Are Suggestions?</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#资金-">资金 💰</a></li><li><a href="#管理-">管理 👔</a></li><li><a href="#仲裁-">仲裁 🔨</a></li><li><a href="#架构-">架构 💪🏽</a></li><li><a href="#根-">根 ⚡</a></li><li><a href="#恢复-">恢复 🚑</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logomark_white.svg" alt="Colony Help" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/zh-CN/doc1.html">Get Started</a><a href="/docs/zh-CN/doc2.html">FAQs</a></div><div><h5>Community</h5><a href="https://colony.io/colony/beta" target="_blank" rel="noopener">Betacolony</a><a href="https://clny.io/discord" target="_blank" rel="noopener">Discord</a></div><div><h5>More</h5><a href="https://twitter.com/joincolony" target="_blank" rel="noopener">Twitter</a><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></div></section><a href="https://colony.io" target="_blank" rel="noopener" class="fbOpenSource"><img src="/img/primary_horizontal_white.svg" alt="Colony" width="170"/></a><section class="copyright">Copyright © 2020 Colony</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'b75b1d2458bdc0cff7417cac43735c06',
+                indexName: 'joincolony',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
