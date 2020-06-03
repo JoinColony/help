@@ -33,6 +33,8 @@ jobs:
         git config --global user.email "actions@joincolony.github.io"
         sudo npm install --global docusaurus-init
         npm install
+        # crowdin install
+        npm install -s crowdin
         # translations upload/download
         crowdin --config ../crowdin.yaml upload sources --auto-update -b master
         crowdin --config ../crowdin.yaml download -b master
