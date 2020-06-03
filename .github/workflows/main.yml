@@ -34,7 +34,9 @@ jobs:
         sudo npm install --global docusaurus-init
         npm install
         # crowdin install
-        npm install -s crowdin
+        sudo apt-get install default-jre
+        wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
+        sudo dpkg -i crowdin.deb
         # translations upload/download
         crowdin --config ../crowdin.yaml upload sources --auto-update -b master
         crowdin --config ../crowdin.yaml download -b master
