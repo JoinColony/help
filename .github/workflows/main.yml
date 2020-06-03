@@ -29,8 +29,6 @@ jobs:
     # Runs the docusaurus publish script
     - name: Run ducusaurus publish script
       run: |
-        git config --global user.name "Action Jackson"
-        git config --global user.email "actions@joincolony.github.io"
         sudo npm install --global docusaurus-init
         npm install
         # crowdin install
@@ -40,6 +38,15 @@ jobs:
         # translations upload/download
         crowdin upload sources --auto-update -b master
         crowdin download -b master
+      working-directory: ./
+
+    # Runs the docusaurus publish script
+    - name: Run ducusaurus publish script
+      run: |
+        git config --global user.name "Action Jackson"
+        git config --global user.email "actions@joincolony.github.io"
+        sudo npm install --global docusaurus-init
+        npm install
         # build and publish website
         GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
       working-directory: ./website
