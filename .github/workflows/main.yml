@@ -26,8 +26,8 @@ jobs:
         ssh-private-key: ${{ secrets.gh_pages }}
         ssh-host: github.com
 
-    # Runs the docusaurus publish script
-    - name: Run ducusaurus publish script
+    # Updates the crowdin translations
+    - name: Update crowdin translations
       run: |
         sudo npm install --global docusaurus-init
         npm install
@@ -36,8 +36,8 @@ jobs:
         wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
         sudo dpkg -i crowdin.deb
         # translations upload/download
-        crowdin upload sources --auto-update -b master
-        crowdin download -b master
+        crowdin --config crowdin.yaml upload sources --auto-update -b master
+        crowdin --config crowdin.yaml download -b master
       working-directory: ./
 
     # Runs the docusaurus publish script
