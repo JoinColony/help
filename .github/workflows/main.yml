@@ -25,22 +25,6 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.gh_pages }}
         ssh-host: github.com
-        CROWDIN_API_KEY: ${{ secrets.CROWDIN_API_KEY }}
-        CROWDIN_PROJECT_ID: colony
-
-    # Updates the crowdin translations
-    - name: Update crowdin translations
-      run: |
-        sudo npm install --global docusaurus-init
-        npm install
-        # crowdin install
-        sudo apt-get install default-jre
-        wget https://artifacts.crowdin.com/repo/deb/crowdin.deb -O crowdin.deb
-        sudo dpkg -i crowdin.deb
-        # translations upload/download
-        crowdin --config crowdin.yaml upload sources --auto-update -b master
-        crowdin --config crowdin.yaml download -b master
-      working-directory: ./
 
     # Runs the docusaurus publish script
     - name: Run ducusaurus publish script
@@ -49,6 +33,5 @@ jobs:
         git config --global user.email "actions@joincolony.github.io"
         sudo npm install --global docusaurus-init
         npm install
-        # build and publish website
         GIT_USER=joincolony.github.io CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
       working-directory: ./website
