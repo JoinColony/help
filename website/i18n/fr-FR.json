@@ -1,0 +1,96 @@
+{
+  "_comment": "Ce fichier est généré automatiquement par write-translations.js",
+  "localized-strings": {
+    "next": "Suivant",
+    "previous": "Précédent",
+    "tagline": "Besoin d'aide ?",
+    "docs": {
+      "failed-transaction": {
+        "title": "Une transaction a échoué pendant que je créais ma colonie. Et maintenant ?",
+        "sidebar_label": "Échec de la transaction. Et maintenant?"
+      },
+      "how-to-choose-a-native-token": {
+        "title": "Comment choisir un jeton natif",
+        "sidebar_label": "Comment choisir un jeton natif"
+      },
+      "how-to-create-a-colony-account": {
+        "title": "Comment créer un compte Colony",
+        "sidebar_label": "Comment créer un compte Colony"
+      },
+      "how-to-create-a-colony": {
+        "title": "Comment créer une colonie",
+        "sidebar_label": "Comment créer une colonie"
+      },
+      "how-to-create-a-task": {
+        "title": "Comment créer une tâche",
+        "sidebar_label": "Comment créer une tâche"
+      },
+      "how-to-fund-your-colony": {
+        "title": "Comment financer votre colonie",
+        "sidebar_label": "Comment financer votre colonie"
+      },
+      "how-to-get-an-etherem-wallet-address": {
+        "title": "Comment obtenir un portefeuille (une adresse) Ethereum",
+        "sidebar_label": "Comment obtenir un portefeuille"
+      },
+      "how-to-join-a-colony": {
+        "title": "Comment rejoindre une colonie",
+        "sidebar_label": "Comment rejoindre une colonie"
+      },
+      "how-to-make-native-tokens-transferable": {
+        "title": "Comment rendre transférables les jetons natifs de ma colonie",
+        "sidebar_label": "Comment rendre transférables les jetons natifs de ma colonie"
+      },
+      "how-to-mint-tokens": {
+        "title": "Comment frapper de nouveaux jetons",
+        "sidebar_label": "Comment frapper de nouveaux jetons"
+      },
+      "how-to-modify-user-permissions": {
+        "title": "Comment modifier les permissions d’un utilisateur",
+        "sidebar_label": "Comment modifier les permissions d’un utilisateur"
+      },
+      "how-to-turn-off-recovery-mode": {
+        "title": "Comment annuler le mode récupération",
+        "sidebar_label": "Comment annuler le mode récupération"
+      },
+      "how-to-work-on-a-task": {
+        "title": "Comment travailler sur une tâche",
+        "sidebar_label": "Comment travailler sur une tâche"
+      },
+      "welcome": {
+        "title": "Bienvenue sur Colony !",
+        "sidebar_label": "Bienvenue"
+      },
+      "what-are-domains": {
+        "title": "Que sont les domaines ?",
+        "sidebar_label": "Que sont les domaines ?"
+      },
+      "what-are-permissions": {
+        "title": "Que sont les autorisations ?",
+        "sidebar_label": "Que sont les autorisations ?"
+      },
+      "what-are-skills": {
+        "title": "Que sont les compétences ?",
+        "sidebar_label": "Que sont les compétences ?"
+      },
+      "what-are-suggestions": {
+        "title": "Que sont les suggestions ?",
+        "sidebar_label": "Que sont les suggestions ?"
+      }
+    },
+    "links": {
+      "Colony": "Colony",
+      "Blog": "Blog",
+      "App": "App"
+    },
+    "categories": {
+      "Getting Started": "Premiers pas",
+      "F.A.Q.": "F.A.Q."
+    }
+  },
+  "pages-strings": {
+    "Help Translate|recruit community translators for your project": "Aider à traduire",
+    "Edit this Doc|recruitment message asking to edit the doc source": "Modifier",
+    "Translate this Doc|recruitment message asking to translate the docs": "Traduire"
+  }
+}
