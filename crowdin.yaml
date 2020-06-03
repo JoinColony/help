@@ -1,5 +1,5 @@
-project_identifier_env: colony
-api_key_env: bdeaa4320c939cfafc8df6f729eb1eaa
+project_identifier_env: "colony"
+api_key_env: "bdeaa4320c939cfafc8df6f729eb1eaa"
 base_path: "./"
 preserve_hierarchy: true
 
