@@ -25,6 +25,8 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.gh_pages }}
         ssh-host: github.com
+        CROWDIN_API_KEY: ${{ secrets.CROWDIN_API_KEY }}
+        CROWDIN_PROJECT_ID: colony
 
     # Updates the crowdin translations
     - name: Update crowdin translations
